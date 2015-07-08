@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sch.gr commons\n"
+"POT-Creation-Date: 2015-07-08 15:11+0200\n"
+"PO-Revision-Date: 2015-07-08 15:11+0200\n"
+"Last-Translator: Lena Stergatu <stergatu@cti.gr>\n"
+"Language-Team: nts on cti.gr\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sch_gr_comm_OptionsManager.php:266
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: sch_gr_comm_OptionsManager.php:401
+#, fuzzy
+msgid "true"
+msgstr ""
+"<code>automatic=\"true\"</code>: Try to collect the user location on page "
+"load (same as <code>[agm_add_checkin]</code>."
+
+#: sch_gr_comm_OptionsManager.php:403
+msgid "false"
+msgstr ""
+
+#: sch_gr_comm_OptionsManager.php:406
+msgid "Administrator"
+msgstr ""
+
+#: sch_gr_comm_OptionsManager.php:408
+#, fuzzy
+msgid "Editor"
+msgstr ""
+"Note: All icons will be displayed in full-size on the map. In the editor and "
+"this list the icon-preview is displayed with 32 x 32 pixels."
+
+#: sch_gr_comm_OptionsManager.php:410
+msgid "Author"
+msgstr ""
+
+#: sch_gr_comm_OptionsManager.php:412
+msgid "Contributor"
+msgstr ""
+
+#: sch_gr_comm_OptionsManager.php:414
+msgid "Subscriber"
+msgstr ""
+
+#: sch_gr_comm_OptionsManager.php:416
+msgid "Anyone"
+msgstr ""
+
+#: sch_gr_comm_Plugin.php:16
+msgid "Enter in some text"
+msgstr ""
+
+#: sch_gr_comm_Plugin.php:17
+msgid "I like this awesome plugin"
+msgstr ""
+
+#: sch_gr_comm_Plugin.php:18
+msgid "Which user role can do something"
+msgstr ""
+
+#: sch_gr_commons.php:23
+msgid ""
+"Error: plugin \"Sch.gr commoms\" requires a newer version of PHP to be "
+"running."
+msgstr ""
+
+#: sch_gr_commons.php:24
+msgid "Minimal version of PHP required: "
+msgstr ""
+
+#: sch_gr_commons.php:25
+msgid "Your server's PHP version: "
+msgstr ""
+
+#: sch_gr_commons.php:88
+msgid "Watch it in vod-new.sch.gr"
+msgstr ""
+
+#: sch_gr_commons.php:110
+msgid "Go to mmpres.sch.gr"
+msgstr ""
