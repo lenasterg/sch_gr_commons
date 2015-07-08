@@ -79,7 +79,6 @@ function sch_gr_wp_embed_handler_vodnew( $matches, $attr, $url, $rawattr ) {
     $args = wp_parse_args( $args, wp_embed_defaults() );
 
     $width = $args['width'];
-//    $height = $args['height'];
     $height = floor( $width * 260 / 450 );
     $embed = '<div align="center"><iframe src="' . sprintf(
 		    'http://vod-new.sch.gr/asset/player/%1$s/%2$s', esc_attr( $matches[1] ), esc_attr( $matches[2] ) ) . '" width="' . $width . 'px" '
@@ -103,8 +102,6 @@ function sch_gr_wp_embed_handler_mmpressch( $matches, $attr, $url, $rawattr ) {
    $args = wp_parse_args( $args, wp_embed_defaults() );
 
     $width = $args['width'];
-//    $height = $args['height'];
-//    $width = get_option( 'embeddedvideo_width' ) - 10;
     $height = floor( $width * 402 / 485 );
     $embed = '<div align="center"><iframe allowtransparency="true" width="' . $width . '" height="' . $height . '" src="' . $url . '/?autostart=false" frameborder="0" allowfullscreen mozallowfullscreen="" webkitallowfullscreen=""></iframe>'
 	    . '	<br/><a href="http://mmpres.sch.gr">'.__('Go to mmpres.sch.gr','sch_gr_commons').'</a></div>';
